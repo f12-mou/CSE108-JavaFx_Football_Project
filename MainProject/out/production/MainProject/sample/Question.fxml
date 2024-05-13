@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="30.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.QuestionController">
+   <children>
+      <HBox layoutX="35.0" layoutY="7.0" prefHeight="57.0" prefWidth="243.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="30.0" prefWidth="205.0" style="-fx-background-color: lightskyblue;">
+               <children>
+                  <Label fx:id="qsLabel" text="Label">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox layoutX="286.0" layoutY="-112.0" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: lightskyblue;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="ansLabel" prefHeight="45.0" prefWidth="198.0" text="Label">
+               <font>
+                  <Font name="Cambria Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

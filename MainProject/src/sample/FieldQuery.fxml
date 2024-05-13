@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="40.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FieldQueryController">
+   <children>
+      <HBox layoutX="-11.0" prefHeight="100.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="40.0" prefWidth="300.0">
+               <children>
+                  <Label fx:id="fieldName" prefHeight="40.0" prefWidth="113.0" text="Label" textFill="#e31cb1">
+                     <VBox.margin>
+                        <Insets left="170.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="40.0" prefWidth="300.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <children>
+                  <Label fx:id="detailsName" prefHeight="41.0" prefWidth="303.0" text="Label" textFill="#e925e6">
+                     <font>
+                        <Font name="Cambria Italic" size="14.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

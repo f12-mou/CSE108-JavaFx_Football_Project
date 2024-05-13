@@ -1,0 +1,30 @@
+.button-raised {
+    -fx-padding: 0.7em 0.57em;
+    -jfx-button-type: raised;
+    -fx-background-color: rgb(77, 102, 204);
+    -fx-text-fill: MAGENTA;
+    -fx-border-radius: 100;
+}
+.myLink:hover{
+    -fx-text-fill: #66CDAA;
+}
+.hbox {
+    -fx-background-color: #2f4f4f;
+    -fx-padding: 15;
+    -fx-spacing: 20;
+}
+.vbox {
+    -fx-border-color: #2e8b57;
+    -fx-border-width: 2px;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+}
+.chart {
+    -fx-pref-width: 916;
+    -fx-pref-height: 620;
+    -fx-min-width: 916;
+    -fx-min-height: 620;
+    -fx-max-width: 916;
+    -fx-max-height: 620;
+}
+

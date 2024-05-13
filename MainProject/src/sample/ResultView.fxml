@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: black;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="controller.ResultController">
+   <content>
+      <VBox fx:id="ContainerVbox" alignment="TOP_CENTER" prefHeight="595.0" prefWidth="785.0" spacing="10.0" style="-fx-background-color: black;">
+         <children>
+            <HBox alignment="TOP_CENTER" prefHeight="14.0" prefWidth="785.0">
+               <children>
+                  <Label prefHeight="51.0" prefWidth="196.0" style="-fx-text-fill: aqua;" text="QUERIES RESULT">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="43.0" prefWidth="785.0">
+               <children>
+                  <Label fx:id="dateLabel" prefHeight="18.0" prefWidth="199.0" style="-fx-font-size: 18; -fx-font-family: Cambria; -fx-text-fill: aqua;" text="Label" />
+               </children>
+            </HBox>
+            <HBox prefHeight="37.0" prefWidth="785.0">
+               <children>
+                  <Label />
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="50.0" right="50.0" />
+         </padding>
+      </VBox>
+   </content>
+</ScrollPane>

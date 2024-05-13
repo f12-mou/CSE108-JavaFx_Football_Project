@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ResultPController">
+   <children>
+      <VBox layoutX="-2.0" prefHeight="205.0" prefWidth="300.0" style="-fx-background-color: teal;">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="nameLabel" prefHeight="42.0" prefWidth="281.0" text="Mohamed Salah">
+                     <font>
+                        <Font name="Cambria Bold Italic" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="countryLabel" prefHeight="36.0" prefWidth="191.0" text="Country: Ghana">
+                     <font>
+                        <Font name="Cambria" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="PositionLabel" prefHeight="40.0" prefWidth="177.0" text="Club: Arsenal">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="25.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="numberLabel" prefHeight="42.0" prefWidth="168.0" text="Position: Goalkeeper">
+                     <HBox.margin>
+                        <Insets left="25.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="198.0" layoutY="-2.0" prefHeight="205.0" prefWidth="300.0" style="-fx-background-color: teal;" AnchorPane.bottomAnchor="0.0">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="200.0" />
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="ageLabel" prefHeight="41.0" prefWidth="150.0" text="Age: 45">
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="heightLabel" prefHeight="43.0" prefWidth="181.0" text="Height: 1.2">
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="salaryLabel" prefHeight="41.0" prefWidth="199.0" text="Salary: 100000">
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="398.0" prefHeight="205.0" prefWidth="300.0" style="-fx-background-color: teal;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="398.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="205.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" />
+         </children></VBox>
+   </children>
+</AnchorPane>

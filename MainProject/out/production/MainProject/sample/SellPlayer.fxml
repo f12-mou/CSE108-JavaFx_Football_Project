@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="700.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SellController">
+   <children>
+      <VBox layoutX="20.0" layoutY="13.0" prefHeight="476.0" prefWidth="424.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="302.0">
+         <children>
+            <HBox prefHeight="59.0" prefWidth="424.0" style="-fx-background-color: black;">
+               <children>
+                  <Label prefHeight="39.0" prefWidth="160.0" style="-fx-background-color: beige; -fx-background-radius: 20;" text="Player Sell Option" textAlignment="CENTER" textFill="#a43ce5">
+                     <HBox.margin>
+                        <Insets left="140.0" top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="39.0" prefWidth="424.0" spacing="10.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="50.0" text="Name" textFill="#09e5cd">
+                     <HBox.margin>
+                        <Insets left="60.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="name" prefHeight="25.0" prefWidth="205.0" text="Faria mou" textFill="#1be0f2">
+                     <HBox.margin>
+                        <Insets left="50.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="39.0" prefWidth="424.0" spacing="3.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="58.0" text="Country" textFill="#41f3c3">
+                     <HBox.margin>
+                        <Insets left="60.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="country" prefHeight="25.0" prefWidth="208.0" text="Bangladesh" textFill="#13beed">
+                     <HBox.margin>
+                        <Insets left="50.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="39.0" prefWidth="424.0" spacing="6.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="57.0" text="Position" textFill="#19e0c3">
+                     <HBox.margin>
+                        <Insets left="60.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="position" prefHeight="25.0" prefWidth="200.0" text="Goalkeeper" textFill="#3eb8fa">
+                     <HBox.margin>
+                        <Insets left="50.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="39.0" prefWidth="424.0" spacing="12.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="50.0" text="Salary" textFill="#55edd7">
+                     <HBox.margin>
+                        <Insets left="60.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="salary" prefHeight="25.0" prefWidth="200.0" text="Label" textFill="#1ac8ed">
+                     <HBox.margin>
+                        <Insets left="50.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="39.0" prefWidth="424.0" spacing="12.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="50.0" text="Age" textFill="#11edcf">
+                     <HBox.margin>
+                        <Insets left="60.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="age" prefHeight="25.0" prefWidth="200.0" text="Label" textFill="#5eaed4">
+                     <HBox.margin>
+                        <Insets left="50.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="39.0" prefWidth="424.0" spacing="10.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="52.0" text="Height" textFill="#68dec2">
+                     <HBox.margin>
+                        <Insets left="60.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="height" prefHeight="25.0" prefWidth="190.0" text="Label" textFill="#3d95dd">
+                     <HBox.margin>
+                        <Insets left="50.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="39.0" prefWidth="424.0" spacing="5.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="58.0" text="Number" textFill="#44dba1">
+                     <HBox.margin>
+                        <Insets left="60.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="number" prefHeight="25.0" prefWidth="200.0" text="Label" textFill="#4288db">
+                     <HBox.margin>
+                        <Insets left="50.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="39.0" prefWidth="424.0" spacing="10.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="50.0" text="Auction" textFill="#63e0be">
+                     <HBox.margin>
+                        <Insets left="60.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="auction" prefHeight="25.0" prefWidth="200.0" promptText="Adjust Money" style="-fx-background-color: beige; -fx-background-radius: 10;">
+                     <HBox.margin>
+                        <Insets left="50.0" top="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox prefHeight="71.0" prefWidth="424.0">
+               <children>
+                  <Label prefHeight="25.0" prefWidth="75.0" text="Comment" textFill="#71ebac">
+                     <HBox.margin>
+                        <Insets left="60.0" top="5.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <TextArea fx:id="comment" prefHeight="42.0" prefWidth="200.0" promptText="Say something about the Player" style="-fx-background-color: beige;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="40.0" top="5.0" />
+                     </HBox.margin>
+                  </TextArea>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox layoutX="472.0" prefHeight="519.0" prefWidth="274.0" AnchorPane.leftAnchor="472.0">
+         <children>
+            <HBox prefHeight="73.0" prefWidth="274.0">
+               <children>
+                  <Hyperlink fx:id="hyperlink" onAction="#hyperlinkAction" prefHeight="47.0" prefWidth="268.0" text="See Market Price Situation" textFill="#c223d0">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Cambria Bold Italic" size="18.0" />
+                     </font>
+                  </Hyperlink>
+               </children>
+            </HBox>
+            <HBox prefHeight="449.0" prefWidth="274.0">
+               <children>
+                  <PieChart fx:id="piechart" prefHeight="415.0" prefWidth="274.0" style="-fx-background-color: pink; -fx-background-radius: 30;">
+                     <HBox.margin>
+                        <Insets bottom="25.0" top="25.0" />
+                     </HBox.margin>
+                  </PieChart>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="button" layoutX="204.0" layoutY="479.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="39.0" prefWidth="81.0" style="-fx-background-radius: 20;" text="Finalize" textFill="#ef3cd1">
+         <font>
+            <Font name="Cambria Bold Italic" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
